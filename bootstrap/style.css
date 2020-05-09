@@ -1,0 +1,13 @@
+.no-style--ul {
+  list-style: none;
+}
+
+.no-style--ul li {
+  display: inline-block;
+}
+
+#search-box img {
+  width: 100%;
+  height: 36px;
+}
+/*# sourceMappingURL=style.css.map */
