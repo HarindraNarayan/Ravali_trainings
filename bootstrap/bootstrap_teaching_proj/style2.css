@@ -1,0 +1,29 @@
+section[id*="section"] {
+  background: #d2d2d2;
+  min-height: 70px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.my-card {
+  display: block;
+  min-height: 200px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.no-style-ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.no-style-ul li {
+  display: inline-block;
+}
+
+.no-style-ul.stack-li li {
+  display: block;
+}
+/*# sourceMappingURL=style2.css.map */

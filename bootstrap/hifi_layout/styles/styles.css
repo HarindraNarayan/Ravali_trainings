@@ -1,0 +1,106 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css");
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000;
+}
+
+html img,
+body img {
+  max-width: 100%;
+}
+
+html h1, html h2, html h3, html h4, html h5, html h6,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+}
+
+.main-navigation {
+  padding: 8px 16px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.main-navigation a {
+  padding: 8px 16px;
+  width: auto;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  color: #000;
+}
+
+.main-navigation a:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: #ccc !important;
+}
+
+.Banner-image-section .hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #f1f1f1 !important;
+}
+
+.Banner-image-section .hover-text .special-text {
+  background-color: #000 !important;
+  opacity: 0.75;
+  padding: 8px 16px !important;
+  font-weight: bolder;
+}
+
+.projects-section .projects-heading {
+  padding: 2rem 0rem;
+  display: block;
+}
+
+.projects-section .projects-heading h3 {
+  padding: 16px 0px;
+  margin: 10px 0px;
+  position: relative;
+}
+
+.projects-section .projects-heading h3::after {
+  content: "";
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.125);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+}
+
+.projects-section .project-card {
+  position: relative;
+}
+
+.projects-section .project-card .project-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #000;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+}
+
+.letter-space-m {
+  letter-spacing: 4px;
+}
+
+.container {
+  max-width: 1500px !important;
+  position: relative;
+}
+/*# sourceMappingURL=styles.css.map */

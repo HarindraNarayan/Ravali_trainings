@@ -1,0 +1,119 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+
+// Body colors
+$bodyColor: #000;
+
+// Letter spacing
+$letter-space-m: 4px;
+$letter-space-s: 2px;
+$letter-space-xs: 1px;
+$letter-space-l: 6px;
+
+
+// Body basic styles
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: $bodyColor;
+
+  img {
+    max-width: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+  }
+}
+
+
+// Navigation section styles
+.main-navigation {
+  padding: 8px 16px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+  a {
+    padding: 8px 16px;
+    width: auto;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    color: $bodyColor;
+
+    &:hover {
+      color: $bodyColor;
+      text-decoration: none;
+      background-color: #ccc !important;
+    }
+  }
+}
+
+// Banner image section styles
+.Banner-image-section {
+  .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1!important;
+
+    .special-text {
+      background-color: #000!important;
+      opacity: 0.75;
+      padding: 8px 16px!important;
+      font-weight: bolder;
+    }
+  }
+}
+
+// Projects section styles
+.projects-section {
+
+  .projects-heading {
+    padding: 2rem 0rem;
+    display: block;
+
+    h3 {
+      padding: 16px 0px;
+      margin: 10px 0px;
+      position: relative;
+
+      &::after {
+        content: "";
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.125);
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+      }
+    }
+  }
+
+  .project-card {
+    position: relative;
+
+    .project-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #fff;
+      background-color: #000;
+      padding: 8px 16px;
+      letter-spacing: $letter-space-xs;
+    }
+  }
+}
+
+.letter-space-m {
+  letter-spacing: $letter-space-m;
+}
+
+
+// Bootstarp overrides
+.container {
+  max-width: 1500px !important;
+  position: relative;
+}
